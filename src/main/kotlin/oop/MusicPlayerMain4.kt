@@ -13,3 +13,8 @@ class MusicPlayerMain4 {
     }
 
 }
+
+
+fun main(args: Array<String>) {
+    MusicPlayerMain4().run()
+}

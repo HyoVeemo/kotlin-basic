@@ -27,3 +27,8 @@ class MusicPlayerMain2 {
         data.isOn = false
     }
 }
+
+
+fun main(args: Array<String>) {
+    MusicPlayerMain2().run()
+}

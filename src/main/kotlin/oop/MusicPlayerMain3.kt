@@ -36,3 +36,7 @@ class MusicPlayerMain3 {
         println(data.isOn)
     }
 }
+
+fun main(args: Array<String>) {
+    MusicPlayerMain3().run()
+}

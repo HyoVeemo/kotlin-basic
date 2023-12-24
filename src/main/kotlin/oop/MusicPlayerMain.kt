@@ -30,3 +30,8 @@ class MusicPlayerMain {
         isOn = false
     }
 }
+
+
+fun main(args: Array<String>) {
+    MusicPlayerMain().run()
+}
