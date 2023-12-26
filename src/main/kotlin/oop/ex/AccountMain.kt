@@ -4,12 +4,13 @@ class AccountMain {
     fun run() {
         val account = Account(10000)
 
+        val arr = IntArray(5)
         account.withdraw(9000)
         account.withdraw(2000)
         account.showBalance()
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     AccountMain().run()
 }
