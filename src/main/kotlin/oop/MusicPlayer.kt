@@ -1,7 +1,7 @@
 package oop
 
 class MusicPlayer(
-    var volumn: Int = 0,
+    var volume: Int = 0,
     var isOn: Boolean = false
 ) {
     fun on() {
@@ -17,14 +17,14 @@ class MusicPlayer(
     }
 
     fun volumUp() {
-        volumn++
-        println("플레이어 볼륨 증가: $volumn")
+        volume++
+        println("플레이어 볼륨 증가: $volume")
     }
 
-    fun volumnDown() {
-        volumn--
+    fun volumeDown() {
+        volume--
 
-        println("플레이어 볼륨 감소: $volumn")
+        println("플레이어 볼륨 감소: $volume")
     }
 
     fun statusShow() {

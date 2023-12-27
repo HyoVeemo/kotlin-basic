@@ -7,7 +7,7 @@ class MusicPlayerMain4 {
         player.on()
         player.volumUp()
         player.volumUp()
-        player.volumnDown()
+        player.volumeDown()
         player.statusShow()
         player.off()
     }

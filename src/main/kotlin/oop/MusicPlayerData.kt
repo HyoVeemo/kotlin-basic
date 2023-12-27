@@ -1,6 +1,6 @@
 package oop
 
 class MusicPlayerData(
-    var volumn: Int = 0,
+    var volume: Int = 0,
     var isOn: Boolean = false
 )

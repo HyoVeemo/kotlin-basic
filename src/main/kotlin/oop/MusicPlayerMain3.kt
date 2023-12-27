@@ -5,10 +5,10 @@ class MusicPlayerMain3 {
         val data = MusicPlayerData()
 
         on(data)
-        volumnUp(data)
-        volumnUp(data)
-        volumnDown(data)
-        volumnDown(data)
+        volumeUp(data)
+        volumeUp(data)
+        volumeDown(data)
+        volumeDown(data)
         off(data)
     }
 
@@ -22,14 +22,14 @@ class MusicPlayerMain3 {
         println("음악 플레이 종료")
     }
 
-    fun volumnUp(data: MusicPlayerData) {
-        data.volumn++
-        println("볼륨 증가: ${data.volumn}")
+    fun volumeUp(data: MusicPlayerData) {
+        data.volume++
+        println("볼륨 증가: ${data.volume}")
     }
 
-    fun volumnDown(data: MusicPlayerData) {
-        data.volumn--
-        println("볼륨 감소: ${data.volumn}")
+    fun volumeDown(data: MusicPlayerData) {
+        data.volume--
+        println("볼륨 감소: ${data.volume}")
     }
 
     fun showStatus(data: MusicPlayerData) {
