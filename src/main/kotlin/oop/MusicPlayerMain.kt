@@ -28,6 +28,7 @@ class MusicPlayerMain {
         // 플레이어 끄기
         println("음악 플레이 종료")
         isOn = false
+
     }
 }
 
