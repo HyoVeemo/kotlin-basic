@@ -6,7 +6,7 @@ class FieldInit {
 
     companion object {
         // static final int CONST_VALUE = 10
-        val CONST_VAL = 10
+        const val CONST_VAL = 10
     }
 }
 
